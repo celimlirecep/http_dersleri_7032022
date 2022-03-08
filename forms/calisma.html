@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calisma</title>
+    <style>
+        body
+        {
+            align-items: center;
+            align-self: center;
+            align-content: center;
+            background-color: aqua;
+            text-decoration-color: brown;
+        
+        }
+        input::target-text{
+            background-color: blueviolet;
+        }
+        table{
+            background-color: chartreuse;
+            border-style:dashed;
+            
+        }
+        .button{
+              background-color: coral;
+              color: aliceblue;
+        }
+        .text{
+            background-color: darkslategrey;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form action="" >
+    <table align="center" border="6"  >
+        <thead><tr><th colspan="2" style="background-color: chocolate;">Öğrenci Bilgileri</th></tr></thead>
+        <tr><td>Ad:</td><td><input type="text" class="text"></td></tr>
+        <tr><td>Soyad:</td><td><input type="text" class="text"></td></tr>
+        <tr><td>Yaş:</td><td><input type="datetime" class="text"></td></tr>
+        <tr><td>Cinsiyet:</td><td align="center">
+            <input type="radio" name="cinsiyet" >Erkek <input type="radio" name="cinsiyet">Kadın
+        </td></tr>
+        <tr><td>Bölum:</td><td><select name="" id="" class="text">
+            <option value="">İnsan Kaynakları</option>
+            <option value="">Finans</option>
+            <option value="">Teknik</option>
+        </select></td></tr>
+        <tr><td>İlgilendiği Spor Dalı:</td><td><select name="" id="" class="text">
+            <option value="">Futbol</option>
+            <option value="">Basketbol</option>
+            <option value="">Karete</option>
+            <option value="">Voleybol</option>
+        </select></td></tr></td>
+        
+        <tr><td>Kulüp</td><td align="center">
+            
+                <input type="checkbox">Spor  <input type="checkbox">Eğitim
+           
+        </td></tr>
+        <tr><td rowspan="2" colspan="2" ></td></tr>
+        <tfoot><td colspan="2" align="center"><input type="button" value="Kaydet" class="button"> <input type="reset" value="Temizle" class="button"></td></tfoot>
+    </table>
+</form>
+</body>
+</html>
