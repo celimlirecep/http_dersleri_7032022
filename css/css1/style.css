@@ -1,0 +1,25 @@
+.box1
+{
+    width: 200px; 
+    height: 200px;
+    background-color: brown;
+    margin: 10px;
+    padding: 30px;
+   /* border-color: black red orange blue;
+   border-color: black blue;
+    border-style:groove;
+    border: 10;
+    border-width: 5px 8px 10px 15px; */
+    border:20px solid gray;
+    border-style:dashed solid;
+}
+
+.yazi
+{
+    font-size: 4vw 4vh;
+}
+.bayrak
+{
+    width: 10vw;
+    height: 5vh; 
+}

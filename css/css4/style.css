@@ -1,0 +1,46 @@
+.container
+{
+padding: 10px;
+border-radius: 20px;
+border: 2px solid rgb(7, 7, 8);
+}
+
+.linktext
+{
+    font-size: larger;
+}
+.button
+{
+    width: 24.3%;
+    border:none;
+    background-color: azure;
+    color: black;
+    font-size: 12px;
+    font-family: cursive;
+}
+.button:hover
+{
+    width: 100px;
+    color:white;
+    background-color:darkolivegreen;
+    transition: width 3s,background-color 1.5s;
+    font-weight:bold;
+
+}
+
+.circlebutton
+{
+    border:none;
+    width: 100px;
+    height: 100px;
+    color: aliceblue;
+    background-color: chocolate;
+    cursor: pointer;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+}
+.circlebutton:hover
+{
+    background-color:red;
+}
